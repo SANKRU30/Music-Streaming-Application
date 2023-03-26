@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:rgb(21, 197, 21)
+}
+
+nav {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container {
+  height: 73vh;
+  
+  color: white;
+  display: flex;
+  margin: 10px auto;
+  width: 85%;
+  border-radius: 12px;
+  padding: 20px;
+  background-image: url("https://www.musicplus.in/wp-content/uploads/2022/06/KK-01-scaled.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom {
+  height: 100px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#myProgressBar {
+  width: 80vw;
+  position: sticky;
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+.songItemContainer {
+  display: flex;
+  border: 2px solid transparent;
+  margin-top: 20px;
+  height: 70vh;
+  width: 1300px;
+  
+
+  flex-direction: column;
+
+  align-items:flex-start;
+}
+
+.songItem {
+  height: 45px;
+  width: 50vh;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+  background-color:rgb(21, 197, 21);
+  color: black;
+  margin: 12px ;
+  border-radius: 12px;
+}
+
+.songItem img {
+  width: 50px;
+  margin-left: 3px;
+  height:38px;
+  border-radius: 10%;
+  margin: 5px 2px;
+  display: flex;
+  align-items: center;
+  
+ 
+}
+
+.timestamp {
+  margin: 0 10px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+h1 {
+  display: flex;
+  justify-content:flex-start;
+  color: #f8f7f7;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+.songInfo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  left: 10vw;
+}
